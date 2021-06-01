@@ -5,9 +5,6 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const dotenv = require('dotenv');
 const app = express();
-const pagesRouter = require('./routes/pages');
-const registerRouter = require('./routes/register');
-const loginRouter = require('./routes/login');
 
 
 dotenv.config({path: './.env'});
@@ -20,9 +17,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended : false}));
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
-//app.use('/', pagesRouter);
-app.use('/user', registerRouter);
-app.use('/user', loginRouter);
+
 
 
 app.get("/", (req, res)=> {
