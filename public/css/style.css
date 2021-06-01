@@ -331,37 +331,6 @@
 
 
 
-.home .slide-caption{
-    height: auto;
-    max-width: 300px;
-    width: auto;
-    background: rgba(235, 232, 232, 0.541);
-    position: absolute;
-    bottom: 0;
-    border-radius: 6px;
-    padding: 3px 10px 20px 10px;
-    left: 50px;
-}
-
-
-.slide-caption .caption-title{
-    margin-bottom: 10px;
-}
-
-.slide-caption .caption-desc{
-    margin-bottom: 30px;
-}
-
-.slide-caption .view-more-btn{
-    width: 100%;
-    padding: 8px 20px;
-    background: #FF5722;
-    border-radius: 6px;
-    font-size: small;
-    color: #fff;
-    text-decoration: none;
-}
-
 
 
 
