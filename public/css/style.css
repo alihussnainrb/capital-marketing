@@ -433,8 +433,9 @@
     width: auto;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(4, 3fr);
+    grid-template-columns: repeat(auto, 3fr);
     grid-gap: 20px;
+    text-align: center;
 }
 
 
